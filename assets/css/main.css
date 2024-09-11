@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(237, 237, 237);
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  height: 70px;
+}
+header .logo-wrapper {
+  background-color: rgb(237, 237, 237);
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+}
+header .logo-wrapper img {
+  background-color: rgb(237, 237, 237) !important;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
