@@ -1,4 +1,5 @@
 // section1 scss starts here
+
 .section1 {
     text-align: center;
     padding: 90px 0;
@@ -90,7 +91,13 @@
 }
 
 
+
+
 // section-2 
+.section2{
+    position: relative;
+    top:-40px;
+}
 .section2 .search-bar {
     padding: 0 30px;
     color: white;
@@ -124,22 +131,35 @@
     padding: 90px 0;
     flex-direction: column;
     align-items: center;
-    nav ul{
-        padding: 10px 0;
+
+    nav ul {
+        padding: 10px 20px;
         display: flex;
-       li a{
-        padding-right: 6px;
-        font-weight: 900;
-        color: black;
-       }
+        gap: 7px;
+        justify-content: center;
+        flex-wrap: wrap;
+        li a {
+            font-weight: 100;
+            color: black;
+            &:hover{
+             
+                color: red;
+                font-weight: 900;
+            transition: .1s;
+            }
+        }
     }
 
     p {
-     
+
         color: rgb(176, 176, 177);
         text-align: center;
         text-indent: 30px;
-        padding:30px ;
+        padding: 30px;
+        &::selection{
+            color: white;
+            background-color: red;
+        }
     }
 
     span {
@@ -153,7 +173,16 @@
         display: flex;
         align-items: flex-end;
         gap: 6px;
-
+&:hover h2{
+    transition: .7s;
+    letter-spacing: 16px;
+    color: red;
+}
+&:hover h6{
+    transition: .7s;
+    letter-spacing:9px;
+    color: red;
+}
         h6 {
             font-family: pop;
             font-size: 20px;
