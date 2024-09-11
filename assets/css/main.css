@@ -2,14 +2,18 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
 * {
+  font-family: poppins;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 .container {
-  background-color: rgb(237, 237, 237);
   width: 80%;
   margin: 0 auto;
 }
@@ -23,12 +27,11 @@ ul {
 }
 
 header {
+  box-sizing: border-box;
   width: 100%;
-  padding: 20px 0;
-  height: 70px;
+  height: 180px;
 }
 header .logo-wrapper {
-  background-color: rgb(237, 237, 237);
   margin: 0 auto;
   width: 180px;
   height: 180px;
@@ -36,4 +39,82 @@ header .logo-wrapper {
 header .logo-wrapper img {
   background-color: rgb(237, 237, 237) !important;
   width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section1 {
+  text-align: center;
+  padding: 90px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/background.jpg");
+}
+
+@font-face {
+  font-family: pop;
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+.section1 .main__content-wrapper {
+  display: flex;
+  padding: 80px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.section1 .main__content-wrapper h2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.section1 .main__content-wrapper h2:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+  letter-spacing: 6px;
+  color: red;
+  text-shadow: 5px 2px 2px #000000;
+}
+.section1 .main__content-wrapper h4 {
+  letter-spacing: 6px;
+  font-size: 35px;
+  font-family: pop;
+  font-weight: 100;
+}
+.section1 .main__content-wrapper h4:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+  letter-spacing: 7px;
+  color: red;
+  text-shadow: 5px 2px 2px #000000;
+}
+.section1 .main__content-wrapper h5 {
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-family: pop;
+  font-weight: 100;
+}
+.section1 .main__content-wrapper h5:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+  letter-spacing: 6px;
+  color: red;
+  text-shadow: 5px 2px 2px #000000;
+}
+.section1 .main__content-wrapper h6 {
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-family: pop;
+}
+.section1 .main__content-wrapper h6 a {
+  color: rgb(207, 177, 6);
+}
+.section1 .main__content-wrapper h6 a:hover {
+  text-decoration: underline;
+}
+.section1 .main__content-wrapper h6:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+  letter-spacing: 5px;
+  color: red;
+  text-shadow: 5px 2px 2px #000000;
 }/*# sourceMappingURL=main.css.map */

@@ -4,13 +4,17 @@ $base-color:rgb(237,237,237);
 body{
     background-color: $base-color;
 }
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
 *{
+   font-family: poppins;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .container{
-    background-color: $base-color;
     width: 80%;
     margin: 0 auto;
 }

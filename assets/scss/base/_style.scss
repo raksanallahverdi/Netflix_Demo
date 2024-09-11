@@ -1,0 +1,81 @@
+// section1 scss starts here
+.section1{
+    text-align: center;
+    padding: 90px 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),url("../images/background.jpg");
+   
+}
+
+@font-face {
+    font-family: pop;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+.section1 .main__content-wrapper{
+    display: flex;
+    padding: 80px 0;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 50px;
+        letter-spacing: 5px;
+        &:hover{
+            transform: scale(1.05);
+            transition: .7s;
+            letter-spacing: 6px;
+            color: red;
+            text-shadow: 5px 2px 2px #000000;
+        }
+    }
+    h4{
+        letter-spacing: 6px;
+        font-size: 35px;
+        font-family:pop ;
+    font-weight: 100;
+    &:hover{
+        transform: scale(1.07);
+        transition: .7s;
+        letter-spacing: 7px;
+        color: red;
+        text-shadow: 5px 2px 2px #000000;
+    }
+}
+h5{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family:pop ;
+font-weight: 100;
+&:hover{
+    transform: scale(1.07);
+    transition: .7s;
+    letter-spacing: 6px;
+    color: red;
+    text-shadow: 5px 2px 2px #000000;
+}
+}
+h6{
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-family:pop ;
+    a{
+        color: rgb(207, 177, 6);
+        &:hover{
+           text-decoration: underline;
+        }
+    }
+    &:hover{
+        transform: scale(1.07);
+      
+        transition: .7s;
+        letter-spacing: 5px;
+        color: red;
+        text-shadow: 5px 2px 2px #000000;
+    }
+}
+}
