@@ -311,7 +311,9 @@
  
  }
  @media (max-width: 992px) {
- 
+    .section1 .main__content-wrapper h2{
+        font-size: 40px;
+    }
    
    .cards .card{
      width: 70%;
@@ -319,7 +321,9 @@
   
   }
   @media (max-width: 782px) {
-   
+    .section1 .main__content-wrapper h2{
+        font-size: 35px;
+    }
    .cards .card{
      width: 96%;
    }
